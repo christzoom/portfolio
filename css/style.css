@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Open Sans:400,500,600,700');
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #212529;
+}
+.section{
+	padding:50px 0;
+	min-height:300px;
+
+}
+.main-header{
+	 width: 100%;
+  background-image: url("./../img/unicorn1");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0;
+  padding: 120px 0;
+}
+
+
+.header-area.sticky {
+    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);*/
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+	transition: 0.3s all ease;
+	
+}
+.header-area.sticky .navbar-light{
+	background-color:#000000 !important;
+}
+
+
+#about{
+	background-color: #000000;
+	
+}
+
+#services{
+	background-color: #00214c;
+	font-size: 10px;
+	
+}
+
+#contact{
+	background-color: #4f4e4e;
+}
+
+h1{
+	color: aliceblue;
+}
+
+h2{
+	color: aliceblue;
+}
+
+p{
+	color: aliceblue;
+	font-display:swap;
+	text-align: left;
+}
+
+#intro{
+background-color: #000000;
+}
+
+h3{
+	color: aliceblue;
+}
+
+#footer{
+	color: #000000;
+}
